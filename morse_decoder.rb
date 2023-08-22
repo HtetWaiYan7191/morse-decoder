@@ -41,6 +41,6 @@ def decode(string)
   sentence.join(' ')
 end
 
-decode_char('.-')
-decode_word('-- -.--')
-decode('-- -.--   -. .- -- .')
+puts(decode_char('.-'))
+puts(decode_word('-- -.--'))
+puts(decode('-- -.--   -. .- -- .'))
